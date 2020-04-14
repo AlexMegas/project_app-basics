@@ -28,7 +28,6 @@ export class CardComponent implements OnInit {
     }
 
     inputHandler(value) {
-        // const value = event.target.value
         this.title = value
     }
 
@@ -36,5 +35,4 @@ export class CardComponent implements OnInit {
         console.log(this.title);
 
     }
-
 }
